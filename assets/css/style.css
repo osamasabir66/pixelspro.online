@@ -104,4 +104,24 @@
         .main-subheading {
             font-size: 14px;
     }
+
+    .about--banner img {
+        display: block;
+        opacity: 0.2;
+    }
+    .about--options {
+        display: block;
+    }
+    .about--options>a{
+        display: inline-block;
+        margin: 10px 20px 10px 0;
+    }
+
+    .about--banner h2::before {
+        top: 120px;
+    }
+    .about--banner h2::after {
+        top: 185px;
+        left: 205px;
+    }
 }
