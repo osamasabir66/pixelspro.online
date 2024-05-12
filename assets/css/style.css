@@ -90,3 +90,18 @@
     .logoimg{
         width: 230px;
     }
+
+    @media (max-width: 600px) {
+        .intro--banner img {
+            display: block;
+            
+        opacity: 0.2;
+        }
+        .intro--banner button {
+            position: absolute;
+            bottom: 45px;
+        }
+        .main-subheading {
+            font-size: 14px;
+    }
+}
