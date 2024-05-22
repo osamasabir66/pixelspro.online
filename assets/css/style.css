@@ -105,6 +105,14 @@
             font-size: 14px;
     }
 
+    .intro--banner {
+        height: 320px;}
+
+        .intro--options h1{font-size: 24px;}
+
+    .intro--banner h1 {
+        font-size: 40px;}
+
     .about--banner img {
         display: block;
         opacity: 0.2;
