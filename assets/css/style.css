@@ -199,3 +199,43 @@ margin: 0;
     justify-content: center;
     margin: 0 auto;
 }
+
+
+
+@media (max-width: 399px) {
+    .intro--banner h1 {
+        font-size: 36px;
+    }
+    .main-subheading {
+        font-size: 12px;
+    }
+    .work h2 {
+        font-size: 34px;
+        font-weight: bold;}
+
+        /* .about--options>a {
+            width: 130px;
+            height: 60px;} */
+
+            .about--banner h2 {
+                margin-top: 0;
+                font-size: 48px;
+            }
+
+            a.mobiledis{
+                display: none !important;
+            }
+            .contactheading {
+                font-size: 34px !important;
+                font-weight: bold;}
+
+                .hire h1 {
+                    margin: 0;
+                    font-size: 24px;
+                }
+
+}
+
+.intro--options h1{
+    margin-top: 0px;
+}
