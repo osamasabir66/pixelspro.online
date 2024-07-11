@@ -1,0 +1,291 @@
+.intro--banner {
+    position: relative;
+    height: 475px;
+    display: flex;
+    align-items: center;
+}
+
+.intro--banner h1 {
+    position: relative;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+    margin-top: -25px;
+}
+
+.intro--banner button{
+    position: absolute;
+    bottom: 125px;
+}
+
+.intro--options{
+    display: block;
+}
+.main-color{
+    color: #0f33ff;
+}
+
+.work h2 {
+    margin: 0;
+}
+.work p {
+    text-align: center;
+}
+
+.about--options>a:nth-child(3) {
+    background-image: url(../img/happy-clients.png);
+}
+.about--options>a:nth-child(2) {
+    background-image: url(../img/done-projects.png);
+}
+.about--options>a:nth-child(1) {
+    background-image: url(../img/subscribersno.png);
+}
+
+.work--lockup .slider--item-description {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.about--banner h2::before {
+    content: "";
+    position: absolute;
+    top: 145px;}
+
+    .intro--options p{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    }
+
+    .work h2 {
+        position: relative;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 1;
+        z-index: 1;
+    }
+
+    .work--lockup .slider--item-center .slider--item-title{
+    position: relative;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+    margin: 18px auto;
+    }
+    
+    .work--lockup .slider--item-center .slider--item-description{
+        font-family: sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .main-subheading{
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: normal;
+    }
+
+    .logoimg{
+        width: 230px;
+    }
+
+    @media (max-width: 600px) {
+        .intro--banner img {
+            display: block;
+            
+        opacity: 0.2;
+        }
+        .intro--banner button {
+            position: absolute;
+            bottom: 45px;
+        }
+        .main-subheading {
+            font-size: 14px;
+    }
+
+    .intro--banner {
+        height: 320px;}
+
+        .intro--options h1{font-size: 24px;}
+
+    .intro--banner h1 {
+        font-size: 40px;}
+
+    .about--banner img {
+        display: block;
+        opacity: 0.2;
+    }
+    .about--options {
+        display: block;
+    }
+    .about--options>a{
+        display: inline-block;
+        margin: 10px 0px 10px 0;
+    }
+
+    .about--banner h2::before {
+        top: 120px;
+    }
+    .about--banner h2::after {
+        top: 185px;
+        left: 205px;
+    }
+}
+
+
+.hire h1 a{
+color: #fff !important;
+text-decoration: none;
+}
+.hire h1{
+margin: 0;
+}
+
+.contactbtn {
+        width: 400px;
+        max-width: 100%;
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #0f33ff;
+        border: none;
+        border-radius: 0;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 25px;
+}
+
+
+.contactheading{
+    position: relative;
+    margin-bottom: 35px !important;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+    text-align: center;
+}
+
+.projects h1{
+    position: relative;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+    text-align: center;
+}
+
+.projects{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 960px;
+    max-width: 80%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 399px) {
+    .intro--banner h1 {
+        font-size: 36px;
+    }
+    .main-subheading {
+        font-size: 12px;
+    }
+    .work h2 {
+        font-size: 34px;
+        font-weight: bold;}
+
+        /* .about--options>a {
+            width: 130px;
+            height: 60px;} */
+
+            .about--banner h2 {
+                margin-top: 0;
+                font-size: 48px;
+            }
+
+            a.mobiledis{
+                display: none !important;
+            }
+            .contactheading {
+                font-size: 34px !important;
+                font-weight: bold;}
+
+                .hire h1 {
+                    margin: 0;
+                    font-size: 24px;
+                }
+
+}
+
+.intro--options h1{
+    margin-top: 0px;
+}
+
+.linkedinbtn{
+    background: #0077b0;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 23px 0;
+    width: 400px;
+    text-align: center;
+}
+.linkedinbtn i{
+    font-size:48px;
+    color:#fff;
+}
+.linkedinbtn span{
+    color: #fff !important;
+    padding-left: 10px;
+    position: relative;
+    bottom: 8px;
+    font-size: 23px;
+}
+
+
+.whatsappbtn{
+    background: #25d366;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 0;
+    width: 400px;
+    text-align: center;
+}
+.whatsappbtn i{
+    font-size:48px;
+    color:#fff;
+}
+.whatsappbtn span{
+    color: #fff !important;
+    padding-left: 10px;
+    position: relative;
+    bottom: 8px;
+    font-size: 23px;
+}
+
+
+@media (max-width: 600px) {
+    
+.linkedinbtn{width: 300px;}
+.whatsappbtn{width: 300px;}
+}
